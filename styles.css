@@ -1,0 +1,45 @@
+body{
+    background: gray;
+    margin: 0;
+}
+div{
+    box-sizing: border-box;
+}
+header{
+    background: white;
+    padding: 10px;
+} 
+header h1{
+    margin: 0;
+} 
+div.container{
+    background: white;
+    width: 600px;
+    margin: auto;
+}
+.fed{
+    background: white;
+    margin-top: 10px;
+}
+div.fed h2, div.fed p{
+    padding: 10px;
+    margin: 0;
+}
+div.fed .fed-header div:first-child{
+    display: inline-block;
+    width: 80%;
+}
+div.fed .fed-header div:last-child{
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    text-align: right;
+    color: gray;
+}
+div.fed img{
+    width: 100%;
+}
+.p-comment{
+    text-align: justify;
+}
+
